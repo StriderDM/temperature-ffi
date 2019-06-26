@@ -1,0 +1,12 @@
+[package]
+name = "temperature-ffi"
+version = "0.1.0"
+authors = ["David Main <strider@tari.com>"]
+edition = "2018"
+
+[dependencies]
+libc="*"
+temperature = { path ="../temperature"}
+
+[lib]
+crate-type = ["cdylib"]
