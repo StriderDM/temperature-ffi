@@ -10,4 +10,4 @@ libc="*"
 temperature = { path ="../temperature"}
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["staticlib","cdylib"]
