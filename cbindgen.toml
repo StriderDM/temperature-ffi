@@ -4,11 +4,7 @@
 # See https://github.com/eqrion/cbindgen/blob/master/docs.md#cbindgentoml
 # for detailed documentation of every option here.
 
-
-
 language = "C++"
-
-
 
 ############## Options for Wrapping the Contents of the Header #################
 
@@ -23,9 +19,6 @@ sys_includes = []
 includes = []
 no_includes = false
 
-
-
-
 ############################ Code Style Options ################################
 
 braces = "SameLine"
@@ -33,21 +26,13 @@ line_length = 100
 tab_width = 2
 documentation_style = "auto"
 
-
-
-
-
 ############################# Codegen Options ##################################
 
 style = "both"
 
-
-
 [defines]
 # "target_os = freebsd" = "DEFINE_FREEBSD"
 # "feature = serde" = "DEFINE_SERDE"
-
-
 
 [export]
 include = []
@@ -56,16 +41,9 @@ exclude = []
 item_types = []
 renaming_overrides_prefixing = false
 
-
-
 [export.rename]
 
-
-
 [export.body]
-
-
-
 
 [fn]
 rename_args = "None"
@@ -73,9 +51,6 @@ rename_args = "None"
 # prefix = "START_FUNC"
 # postfix = "END_FUNC"
 args = "auto"
-
-
-
 
 [struct]
 rename_fields = "None"
@@ -87,9 +62,6 @@ derive_lt = false
 derive_lte = false
 derive_gt = false
 derive_gte = false
-
-
-
 
 [enum]
 rename_variants = "None"
@@ -103,22 +75,11 @@ derive_mut_casts = false
 derive_tagged_enum_destructor = false
 derive_tagged_enum_copy_constructor = false
 
-
-
-
 [const]
 allow_static_const = true
 
-
-
-
 [macro_expansion]
 bitflags = false
-
-
-
-
-
 
 ############## Options for How Your Rust library Should Be Parsed ##############
 
@@ -127,8 +88,6 @@ parse_deps = false
 # include = []
 exclude = []
 clean = false
-
-
 
 [parse.expand]
 crates = []
